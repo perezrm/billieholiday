@@ -1,78 +1,63 @@
 #home {
-    height: 100%;
-    background: url("../images/image1.jpg") no-repeat center center;
-    background-size: cover;
-   
+     height: 100%;
+     background: url("../images/image1.jpg") no-repeat center center;
+     background-size: cover;
 }
-
-body{
+body {
     padding: 0;
     margin: 0;
-   
 }
-
-
 /* nav bar */
-.menu { 
+                    
+.menu {
     background: black;
     height: 60px;
-    
 }
-
 /* targeting ul inside of .nav */
-.menu ul{
+                    
+.menu ul {
     list-style: none;
     float: right;
-    padding: 20px 0 0 0; 
+    padding: 20px 0 0 0;
     margin-right: 42px;
-    
 }
-
 /* set the typography */
-.menu li { 
+                    
+.menu li {
     font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
     font-size: 14px;
     font-weight: 500;
     text-align: center;
     display: inline;
-    margin: 5px 60px 0 0;    
-
+    margin: 5px 60px 0 0;
 }
-
 /* style unvisited, visited, hover, and active links 
-   targeting anchor tags off the underlines and changing the text color */
+targeting anchor tags off the underlines and changing the text color */
+                    
 .menu a {
-    text-decoration: none; 
+    text-decoration: none;
     color: #787679;
-
 }
-
 /* CURRENT link "active" to let the user know which page he/she is on */
+                    
 .menu .current {
     color: #F2EFEA;
-    
 }
-
 /* working on "when the link has already been visited" */
-
-
 /* make the color different when we hover over the link */
-.menu a:hover{
-     color: #efd8a1;
-    
+                    
+.menu a:hover {
+    color: #efd8a1;
 }
-
 /* make the color different when link is selected and click */
+                    
 .menu a:active {
-    color:#505058;
-    
+    color: #505058;
 }
 
-.homediv{
+.homediv {
     background-color: transparent;
-    
 }
- 
 #name h1 {
     color: #F2EFEA;
     font-size: 100px;
@@ -82,42 +67,32 @@ body{
     text-align: center;
     margin-top: 130px;
     padding: 100px 0 0 570px;
-    
 }
-
 #name p {
     color: #cbcac7;
     font-size: 20px;
     font-weight: 400;
     font-family: 'Crimson Text', serif;
-    text-align:center;
+    text-align: center;
     margin-top: -100px;
     padding-left: 520px;
-
 }
-
 /* Life and Career page */
-
-
-.recordingsession {
-    background-color: #F2EFEA;
+                    
+.lifeandcareer {
+    background-color: #cbcac7;
     width: 67%;
-    margin: 30px 5px 5px 25px;
-    padding: 20px;
-    font-size: 20px;
+    padding: 35px;
+    font-size: 16px;
     text-align: justify;
     float: left;
-    margin-top: 30px;
-   position: absolute;
 }
-
 .aside {
     float: right;
     font-size: 20px;
     width: 26%;
     margin-top: 30px;
 }
-
 /*Jeff's Last Recording Page*/
 
 /* nav bar */
@@ -176,24 +151,12 @@ targeting anchor tags off the underlines and changing the text color */
 .linkmenu a:active {
     color: #505058;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.recordingsession {
+    background-color: #F2EFEA;
+    width: 67%;
+    margin: 30px 5px 5px 25px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+    float: left;
+}
